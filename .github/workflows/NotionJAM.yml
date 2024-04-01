@@ -33,7 +33,7 @@ jobs:
           FILTER_VALUES: Published
           CONVERT_PROP_CASE: snake
           ARTICLE_PATH:  ${{ vars.ARTICLE_PATH }}
-          ASSETS_PATH: ./
+          ASSETS_PATH: ${{ vars.ASSETS_PATH }}
           PARALLEL_PAGES: 25
           PARALLEL_DOWNLOADS_PER_PAGE: 3
           DOWNLOAD_IMAGE_TIMEOUT: 30
