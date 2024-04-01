@@ -1,15 +1,16 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
+# This is a basic workflow to help you get started with Actions
+# step 1. read from notion database
+# step 2. commit changes
+# step 3. build pages
+# step 4. deploy
 name: Deploy Jekyll site to Pages
 
+# Controls when the workflow will run
 on:
-  # Runs on pushes targeting the default branch
+  schedule:
+    - cron: "0 21 * * *" # daily
   push:
-    branches: ["master"]
+    branches: [master, main]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -26,13 +27,39 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # Build job
+  # This workflow contains a single job called "build"
   build:
+    # The type of runner that the job will run on
     runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      - name: notion-jam
+        uses: victornpb/notion-jam@v0.0.13
+        with:
+          NOTION_SECRET: ${{ secrets.NOTION_SECRET }}
+          NOTION_DATABASE: ${{ vars.NOTION_DATABASE }}
+          FILTER_PROP: Status
+          FILTER_VALUES: Ready,Published
+          CONVERT_PROP_CASE: snake
+          ARTICLE_PATH:  ${{ vars.ARTICLE_PATH }}
+          ASSETS_PATH: ${{ vars.ASSETS_PATH }}
+          PARALLEL_PAGES: 25
+          PARALLEL_DOWNLOADS_PER_PAGE: 3
+          DOWNLOAD_IMAGE_TIMEOUT: 30
+          SKIP_DOWNLOADED_IMAGES: true
+          DOWNLOAD_FRONTMATTER_IMAGES: true
+      
+      - name: Save changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Commit changes
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
         with:
