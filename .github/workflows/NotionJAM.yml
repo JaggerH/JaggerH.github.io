@@ -31,8 +31,9 @@ jobs:
 
       - name: notion-jam
         uses: victornpb/notion-jam@v0.0.13
-        env:
+        with:
           NOTION_SECRET: ${{ secrets.NOTION_SECRET }}
+        env:
           NOTION_DATABASE: ${{ vars.NOTION_DATABASE }}
           FILTER_PROP: Status
           FILTER_VALUES: Published
