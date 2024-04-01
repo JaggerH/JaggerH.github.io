@@ -21,11 +21,6 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - run: echo "🎉 The job has secrets.NOTION_SECRET ${{ secrets.NOTION_SECRET }}"
-      - run: echo "🎉 The job has vars.NOTION_DATABASE ${{ vars.NOTION_DATABASE }}"
-      - run: echo "🎉 The job has vars.ARTICLE_PATH ${{ vars.ARTICLE_PATH }}"
-      - run: echo "🎉 The job has vars.ASSETS_PATH ${{ vars.ASSETS_PATH }}"
-
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
@@ -33,7 +28,6 @@ jobs:
         uses: victornpb/notion-jam@v0.0.13
         with:
           NOTION_SECRET: ${{ secrets.NOTION_SECRET }}
-        env:
           NOTION_DATABASE: ${{ vars.NOTION_DATABASE }}
           FILTER_PROP: Status
           FILTER_VALUES: Published
