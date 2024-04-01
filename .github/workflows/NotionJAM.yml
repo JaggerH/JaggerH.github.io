@@ -30,7 +30,7 @@ jobs:
 
       - name: notion-jam
         uses: victornpb/notion-jam@v0.0.13
-        with:
+        env:
           NOTION_SECRET: ${{ secrets.NOTION_SECRET }}
           NOTION_DATABASE: ${{ vars.NOTION_DATABASE }}
           FILTER_PROP: Status
