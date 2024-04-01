@@ -2,11 +2,12 @@
 id: 47cce2cd-974f-49a3-a525-fe7e92c9e875
 title: Operate in Bull Market
 created_time: 2024-04-01T11:42:00.000Z
-last_edited_time: 2024-04-01T14:43:00.000Z
+last_edited_time: 2024-04-01T15:00:00.000Z
 tags:
   - Stock
 date: '2024-04-01'
 status: Ready
+layout: post
 
 ---
 

@@ -2,13 +2,14 @@
 id: 0ebebd5c-3aed-4f8e-937e-bae5c2ac1127
 title: Behavior factor quantification method
 created_time: 2024-04-01T11:42:00.000Z
-last_edited_time: 2024-04-01T14:43:00.000Z
+last_edited_time: 2024-04-01T15:00:00.000Z
 tags:
   - Stock
   - Quant
 date: '2024-04-01'
 status: Ready
 layout: post
+
 ---
 
 对于非时间序列的行为因子，比如在某个时间节点满足某个条件，你可以考虑将这个行为因子量化为一个二元变量或者多元变量，然后将其纳入你的多因子模型中。以下是一些步骤和方法来处理这种情况：
