@@ -54,6 +54,10 @@ jobs:
           DOWNLOAD_IMAGE_TIMEOUT: 30
           SKIP_DOWNLOADED_IMAGES: true
           DOWNLOAD_FRONTMATTER_IMAGES: true
+          
+      - name: Replace image paths in Markdown files
+        run: |
+          sed -i 's|assets/img/|/assets/img/|g' $(find _posts -type f -name "*.md")
       
       - name: Save changes
         uses: stefanzweifel/git-auto-commit-action@v4
