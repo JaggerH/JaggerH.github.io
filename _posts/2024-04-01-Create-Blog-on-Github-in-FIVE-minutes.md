@@ -51,7 +51,7 @@ bundle exec jekyll serve
 
 网页上会提醒你，你运行了4000端口，选择打开，之后你就会看到
 
-![](../assets/img/Untitled_dUiCRCz6.png)
+![](/assets/img/Untitled_dUiCRCz6.png)
 
 ### 安装主题
 
