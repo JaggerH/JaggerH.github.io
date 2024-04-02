@@ -2,7 +2,7 @@
 id: 0a179547-d14c-442c-8661-d9757449f195
 title: Create Blog on Github in FIVE minutes
 created_time: 2024-03-31T17:07:00.000Z
-last_edited_time: 2024-04-02T05:04:00.000Z
+last_edited_time: 2024-04-02T05:14:00.000Z
 cover_image: /assets/img/nasa_transonic_tunnel_Gzc9uijW.jpg
 tags:
   - Github
@@ -14,7 +14,7 @@ _thumbnail: /assets/img/nasa_transonic_tunnel_Gzc9uijW.jpg
 
 ---
 
-你是否考虑过把自己的经历写成Blog，记录自己的经历，为他人提供指引。如果你有这个想法，画上五分钟，你可以拥有一个自己的博客。
+如果你考虑过把自己的经验写成Blog，记录自己的经历，画上五分钟，你可以拥有一个自己的博客。
 
 我看到很多Blog，后缀都是github.io。
 

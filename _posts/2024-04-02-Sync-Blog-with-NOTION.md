@@ -2,7 +2,7 @@
 id: 7f620f02-7b7b-4e30-9d19-c81b00e0d3fd
 title: Sync Blog with NOTION
 created_time: 2024-04-02T04:05:00.000Z
-last_edited_time: 2024-04-02T05:10:00.000Z
+last_edited_time: 2024-04-02T05:18:00.000Z
 tags:
   - Github
   - Notion
@@ -45,14 +45,15 @@ Codespace is good, but not good enough when you have lots of blog.
 
 我会着重说明一下，实施过程中原项目指引中缺省的一些问题
 
-## 创建Database
+## Create Database
 
 ### Database的格式
 
 你的Database应该长这样，注意大小写
 
-| Title  | Text         |                           |
+| Name   | Type         | Options                   |
 | ------ | ------------ | ------------------------- |
+| Title  | Text         |                           |
 | Tags   | Multi-select |                           |
 | Status | Select       | Options: Ready, Published |
 | layout | Select       | Options: post             |
@@ -60,9 +61,11 @@ Codespace is good, but not good enough when you have lots of blog.
 
 ![](/assets/img/Untitled_FCnhTliu.png)
 
-### 设置Github
+### Github Settings
 
 *   Create a workflow in `.github/workflows/**.yml` of your repository
+
+    *
 
 ```bash
 # This is a basic workflow to help you get started with Actions
@@ -114,8 +117,8 @@ jobs:
           FILTER_PROP: Status
           FILTER_VALUES: Ready,Published
           CONVERT_PROP_CASE: snake
-          ARTICLE_PATH:  ${{ vars.ARTICLE_PATH }}
-          ASSETS_PATH: ${{ vars.ASSETS_PATH }}
+          ARTICLE_PATH:  _posts/{date}-{title}.md
+          ASSETS_PATH: assets/img
           PARALLEL_PAGES: 25
           PARALLEL_DOWNLOADS_PER_PAGE: 3
           DOWNLOAD_IMAGE_TIMEOUT: 30
