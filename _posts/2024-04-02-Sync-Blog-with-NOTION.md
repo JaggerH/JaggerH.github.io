@@ -2,7 +2,7 @@
 id: 7f620f02-7b7b-4e30-9d19-c81b00e0d3fd
 title: Sync Blog with NOTION
 created_time: 2024-04-02T04:05:00.000Z
-last_edited_time: 2024-04-02T05:18:00.000Z
+last_edited_time: 2024-04-02T05:19:00.000Z
 tags:
   - Github
   - Notion
@@ -65,7 +65,13 @@ Codespace is good, but not good enough when you have lots of blog.
 
 *   Create a workflow in `.github/workflows/**.yml` of your repository
 
-    *
+    这个Action会做什么事情
+
+    *   读取notion database
+
+    *   提交到Github
+
+    *   编译页面并发布
 
 ```bash
 # This is a basic workflow to help you get started with Actions
