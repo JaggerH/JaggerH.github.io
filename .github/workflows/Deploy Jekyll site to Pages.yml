@@ -47,8 +47,8 @@ jobs:
           FILTER_PROP: Status
           FILTER_VALUES: Ready,Published
           CONVERT_PROP_CASE: snake
-          ARTICLE_PATH:  ${{ vars.ARTICLE_PATH }}
-          ASSETS_PATH: ${{ vars.ASSETS_PATH }}
+          ARTICLE_PATH:  _posts/{date}-{title}.md
+          ASSETS_PATH: assets/img
           PARALLEL_PAGES: 25
           PARALLEL_DOWNLOADS_PER_PAGE: 3
           DOWNLOAD_IMAGE_TIMEOUT: 30
