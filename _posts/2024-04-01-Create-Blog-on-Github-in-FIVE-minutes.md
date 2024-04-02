@@ -2,7 +2,7 @@
 id: 0a179547-d14c-442c-8661-d9757449f195
 title: Create Blog on Github in FIVE minutes
 created_time: 2024-03-31T17:07:00.000Z
-last_edited_time: 2024-04-01T15:00:00.000Z
+last_edited_time: 2024-04-02T05:04:00.000Z
 cover_image: /assets/img/nasa_transonic_tunnel_Gzc9uijW.jpg
 tags:
   - Github
@@ -14,7 +14,9 @@ _thumbnail: /assets/img/nasa_transonic_tunnel_Gzc9uijW.jpg
 
 ---
 
-我看到有很多人都创建了自己的Blog，后缀都是github.io。
+你是否考虑过把自己的经历写成Blog，记录自己的经历，为他人提供指引。如果你有这个想法，画上五分钟，你可以拥有一个自己的博客。
+
+我看到很多Blog，后缀都是github.io。
 
 查了一下发现，Github可以免费托管个人博客了，那不赶紧搞起来。
 
@@ -55,21 +57,51 @@ bundle exec jekyll serve
 
 ### 安装主题
 
-可以在[rubygems](https://rubygems.org/search?query=jekyll-theme)中搜索主题，我选了[primer](https://github.com/pages-themes/primer)
+可以在[rubygems](https://rubygems.org/search?query=jekyll-theme)中搜索主题，我选了[minimal](https://github.com/pages-themes/minimal)
 
 ```yaml
 # Build settings
-# theme: minima
-theme: jekyll-theme-[primer](https://github.com/pages-themes/primer)
+remote_theme: pages-themes/minimal@v0.2.0
 plugins:
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
   - jekyll-feed
 ```
 
 ```bash
+source "https://rubygems.org"
+# Hello! This is where you manage which Jekyll version is used to run.
+# When you want to use a different version, change it below, save the
+# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
+#
+#     bundle exec jekyll serve
+#
+# This will help ensure the proper Jekyll version is running.
+# Happy Jekylling!
 gem "jekyll", "~> 4.3.3"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.5"
-gem "jekyll-theme-[primer](https://github.com/pages-themes/primer)"
+# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
+# uncomment the line below. To upgrade, run `bundle update github-pages`.
+# gem "github-pages", group: :jekyll_plugins
+# If you have any plugins, put them here!
+group :jekyll_plugins do
+  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-remote-theme"
+end
+
+# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
+# and associated library.
+platforms :mingw, :x64_mingw, :mswin, :jruby do
+  gem "tzinfo", ">= 1", "< 3"
+  gem "tzinfo-data"
+end
+
+# Performance-booster for watching directories on Windows
+gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+
+# Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
+# do not have a Java counterpart.
+gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 ```
 
 ```bash
@@ -77,4 +109,18 @@ bundle install
 bundle exec jekyll serve
 ```
 
-有两个Warning
+在终端中运行，你会看到两个Warning，并且页面也是空白的无法显示
+
+那是因为`about.markdown`和`index.markdown`使用的layout在minimal中不存在，你需要修改为default
+
+```bash
+---
+layout: default
+---
+```
+
+修改后你的页面可以正常显示了。
+
+如果你习惯与使用Markdown编程，到这一步为止已经很完美了，如果你需要添加帖子，你只需要在\_post文件夹中，新建格式如 `2024-04-02-NEW POST.md`即可，依据Markdown的规范来编写，提交到Github之后，Github会运行Action自动编译，你的博客也会自动更新。
+
+### 和Notion同步
