@@ -11,8 +11,7 @@ _thumbnail: /assets/img/og_2iSKdyhH
 
 ---
 
-> [**Conda使用教程**](https://zhuanlan.zhihu.com/p/483716942)\
-> Conda介绍conda可以理解为一个工具，也是一个可执行命令，其核心功能是包管理和环境管理。包管理与pip的使用方法类似似，环境管理则是允许用户方便滴安装不同版本的python环境并在不同环境之间快速地切换。 conda…\
+> [**undefined**](https://zhuanlan.zhihu.com/p/483716942)\
 > <https://zhuanlan.zhihu.com/p/483716942>
 
 # 引言
