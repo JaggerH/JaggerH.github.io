@@ -2,7 +2,7 @@
 id: 7590fe75-2a28-4084-a792-ba7b4b43444f
 title: Ollama本地知识库
 created_time: 2024-05-28T14:26:00.000Z
-last_edited_time: 2024-05-31T05:04:00.000Z
+last_edited_time: 2024-06-01T04:58:00.000Z
 tags:
   - Ollama
 status: Ready
@@ -26,3 +26,7 @@ _thumbnail: /assets/img/384127954_1010009116964035_2906046058102555347_n_igHW5U2
 > [![image](/assets/img/theme-image_MN0mwsqm.png) **Document loaders | 🦜️🔗 LangChain**](https://python.langchain.com/v0.1/docs/modules/data_connection/document_loaders/)\
 > Head to Integrations for documentation on built-in document loader integrations with 3rd-party tools.\
 > <https://python.langchain.com/v0.1/docs/modules/data_connection/document_loaders/>
+
+> [![image](/assets/img/og_2iSKdyhH) **Notebooks - Unstructured**](https://docs.unstructured.io/examplecode/notebooks)\
+> Notebooks contain complete working sample code for end to end solutions.\
+> <https://docs.unstructured.io/examplecode/notebooks>
