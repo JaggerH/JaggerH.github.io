@@ -2,7 +2,7 @@
 id: 7590fe75-2a28-4084-a792-ba7b4b43444f
 title: Ollama本地知识库
 created_time: 2024-05-28T14:26:00.000Z
-last_edited_time: 2024-06-05T12:55:00.000Z
+last_edited_time: 2024-06-06T13:42:00.000Z
 tags:
   - Ollama
 status: Ready
@@ -60,6 +60,13 @@ graph LR
 
         [Docker Hub | Paddle/PaddleOCR](https://hub.docker.com/r/paddlecloud/paddleocr/tags?page=\&page_size=\&ordering=\&name=)
 
+        ***
+
+        最终GPU解决方案：[PaddleOCR的安装](https://www.notion.so/2b389a93748a4ecca4ab79bb59825db7)
+
 *   embedding存入
 
     目前使用官网教程，FAISS
+
+    > [**Installing cuDNN on Linux — NVIDIA cuDNN v9.2.0 documentation**](https://docs.nvidia.com/deeplearning/cudnn/latest/installation/linux.html)\
+    > <https://docs.nvidia.com/deeplearning/cudnn/latest/installation/linux.html>
