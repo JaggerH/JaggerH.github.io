@@ -2,10 +2,11 @@
 id: 2b389a93-748a-4ecc-a4ab-79bb59825db7
 title: PaddleOCR的安装
 created_time: 2024-06-06T13:38:00.000Z
-last_edited_time: 2024-06-06T13:41:00.000Z
+last_edited_time: 2024-06-08T03:52:00.000Z
 tags:
   - Conda
 status: Ready
+layout: post
 
 ---
 
