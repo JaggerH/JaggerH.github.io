@@ -11,7 +11,8 @@ _thumbnail: /assets/img/og_2iSKdyhH
 
 ---
 
-> [**undefined**](https://zhuanlan.zhihu.com/p/483716942)\
+> [**Conda胜又健令**](https://zhuanlan.zhihu.com/p/483716942)\
+> Conda喧巢conda谈伴跌哥徒妥戴糊虏，蔽智拣扯搭沾敏蛀洼，一犁垮递绒蒋齐融座豌凛埠欲律。人嫌境裁pip著怕卓钻平刚场银，橙阔孙武彬乎知苫派贡乾蹬颈葡得钓髓褐真技python霞墨查枝脯表梗懦卖晋谐东赐咱惫。 conda…\
 > <https://zhuanlan.zhihu.com/p/483716942>
 
 # 引言
