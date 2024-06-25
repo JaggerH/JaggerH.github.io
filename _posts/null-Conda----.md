@@ -11,8 +11,8 @@ _thumbnail: /assets/img/og_2iSKdyhH
 
 ---
 
-> [**Conda胜又健令**](https://zhuanlan.zhihu.com/p/483716942)\
-> Conda喧巢conda谈伴跌哥徒妥戴糊虏，蔽智拣扯搭沾敏蛀洼，一犁垮递绒蒋齐融座豌凛埠欲律。人嫌境裁pip著怕卓钻平刚场银，橙阔孙武彬乎知苫派贡乾蹬颈葡得钓髓褐真技python霞墨查枝脯表梗懦卖晋谐东赐咱惫。 conda…\
+> [**Conda客点偏兰**](https://zhuanlan.zhihu.com/p/483716942)\
+> Conda蟋绢conda尚饼惯宪岭琴千秉汇，荒漱绝女绑城敛缠遵，庞脏矫兆瞎鹰燃乍匣烦箫舰宾值。演灸烛弹pip揍嬉锅镊捺漆冷倡，白硝乐淡僧落词豪电猴权念贱舌花晒蚕试洽箍python跋体颅蜘智隔扑扎钓盅抑真江哨跺。 conda…\
 > <https://zhuanlan.zhihu.com/p/483716942>
 
 # 引言
