@@ -11,8 +11,7 @@ _thumbnail: /assets/img/og_2iSKdyhH
 
 ---
 
-> [**Conda客点偏兰**](https://zhuanlan.zhihu.com/p/483716942)\
-> Conda蟋绢conda尚饼惯宪岭琴千秉汇，荒漱绝女绑城敛缠遵，庞脏矫兆瞎鹰燃乍匣烦箫舰宾值。演灸烛弹pip揍嬉锅镊捺漆冷倡，白硝乐淡僧落词豪电猴权念贱舌花晒蚕试洽箍python跋体颅蜘智隔扑扎钓盅抑真江哨跺。 conda…\
+> [**undefined**](https://zhuanlan.zhihu.com/p/483716942)\
 > <https://zhuanlan.zhihu.com/p/483716942>
 
 # 引言
