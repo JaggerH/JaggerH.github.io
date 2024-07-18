@@ -36,6 +36,8 @@ _thumbnail: /assets/img/nasa_transonic_tunnel_Gzc9uijW.jpg
 
 ### 安装Jekyll
 
+进入到Codespace之后，你的界面是这样的，在终端里面输入下面的代码
+
 ![](/assets/img/Untitled_zxPWQiPq.png)
 
 ```bash
