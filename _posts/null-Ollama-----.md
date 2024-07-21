@@ -7,7 +7,7 @@ tags:
   - Ollama
 status: Ready
 layout: post
-_thumbnail: /assets/img/384127954_1010009116964035_2906046058102555347_n_igHW5U2G.jpg
+_thumbnail: /assets/img/384127954_1010009116964035_2906046058102555347_n_RJZSyrxr.jpg
 
 ---
 
@@ -15,7 +15,7 @@ _thumbnail: /assets/img/384127954_1010009116964035_2906046058102555347_n_igHW5U2
 > How to Install 🚀\
 > <https://docs.openwebui.com/getting-started/>
 
-> [![image](/assets/img/384127954_1010009116964035_2906046058102555347_n_igHW5U2G.jpg) **Meta Llama**](https://llama.meta.com/)\
+> [![image](/assets/img/384127954_1010009116964035_2906046058102555347_n_RJZSyrxr.jpg) **Meta Llama**](https://llama.meta.com/)\
 > Meta Llama is the next generation of our open source large language model, available for free for research and commercial use.\
 > <https://llama.meta.com/>
 
