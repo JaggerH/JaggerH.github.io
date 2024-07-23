@@ -15,8 +15,8 @@ _thumbnail: /assets/img/384127954_1010009116964035_2906046058102555347_n_77Te0ep
 > How to Install 🚀\
 > <https://docs.openwebui.com/getting-started/>
 
-> [![image](/assets/img/384127954_1010009116964035_2906046058102555347_n_77Te0epY.jpg) **Meta Llama**](https://llama.meta.com/)\
-> Meta Llama is the next generation of our open source large language model, available for free for research and commercial use.\
+> [![image](/assets/img/384127954_1010009116964035_2906046058102555347_n_77Te0epY.jpg) **Llama 3.1**](https://llama.meta.com/)\
+> The open source AI model you can fine-tune, distill and deploy anywhere. Our latest models are available in 8B, 70B, and 405B variants.\
 > <https://llama.meta.com/>
 
 > [![image](/assets/img/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_7508709088536350108_xuvWvXn7.png) **Docker Compose 快速部署**](https://doc.fastgpt.in/docs/development/docker/)\
