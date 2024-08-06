@@ -7,7 +7,7 @@ tags:
   - Ollama
 status: Ready
 layout: post
-_thumbnail: /assets/img/453207338_3470028339809698_4399775897682901096_n_enq46dLK.jpg
+_thumbnail: /assets/img/453207338_3470028339809698_4399775897682901096_n_yW4W2otj.jpg
 
 ---
 
@@ -15,7 +15,7 @@ _thumbnail: /assets/img/453207338_3470028339809698_4399775897682901096_n_enq46dL
 > How to Install 🚀\
 > <https://docs.openwebui.com/getting-started/>
 
-> [![image](/assets/img/453207338_3470028339809698_4399775897682901096_n_enq46dLK.jpg) **Llama 3.1**](https://llama.meta.com/)\
+> [![image](/assets/img/453207338_3470028339809698_4399775897682901096_n_yW4W2otj.jpg) **Llama 3.1**](https://llama.meta.com/)\
 > The open source AI model you can fine-tune, distill and deploy anywhere. Our latest models are available in 8B, 70B, and 405B variants.\
 > <https://llama.meta.com/>
 
