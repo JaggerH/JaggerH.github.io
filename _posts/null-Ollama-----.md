@@ -7,7 +7,7 @@ tags:
   - Ollama
 status: Ready
 layout: post
-_thumbnail: /assets/img/384127954_1010009116964035_2906046058102555347_n_igHW5U2G.jpg
+_thumbnail: /assets/img/384127954_1010009116964035_2906046058102555347_n_77Te0epY.jpg
 
 ---
 
@@ -15,7 +15,7 @@ _thumbnail: /assets/img/384127954_1010009116964035_2906046058102555347_n_igHW5U2
 > How to Install 🚀\
 > <https://docs.openwebui.com/getting-started/>
 
-> [![image](/assets/img/384127954_1010009116964035_2906046058102555347_n_igHW5U2G.jpg) **Llama 3.1**](https://llama.meta.com/)\
+> [![image](/assets/img/384127954_1010009116964035_2906046058102555347_n_77Te0epY.jpg) **Llama 3.1**](https://llama.meta.com/)\
 > The open source AI model you can fine-tune, distill and deploy anywhere. Our latest models are available in 8B, 70B, and 405B variants.\
 > <https://llama.meta.com/>
 
@@ -68,5 +68,5 @@ graph LR
 
     目前使用官网教程，FAISS
 
-    > [**Installing cuDNN on Linux — NVIDIA cuDNN v9.3.0 documentation**](https://docs.nvidia.com/deeplearning/cudnn/latest/installation/linux.html)\
+    > [**Installing cuDNN on Linux — NVIDIA cuDNN v9.4.0 documentation**](https://docs.nvidia.com/deeplearning/cudnn/latest/installation/linux.html)\
     > <https://docs.nvidia.com/deeplearning/cudnn/latest/installation/linux.html>
