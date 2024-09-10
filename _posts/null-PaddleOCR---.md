@@ -45,7 +45,7 @@ dependencies:
 
 有几个是需要跟你的版本进行绑定的，一个是`CUNVV`的版本，一个是\*\*`paddlepaddle-gpu`\*\* **的版本**
 
-`CUNVV`的版本可以参照这个，我的解决方案比较野蛮，就是直接用最新的。
+`CUNVV`的版本可以参照这个<https://docs.nvidia.com/deploy/cuda-compatibility/>，我的解决方案比较野蛮，就是直接用最新的。
 
 ```bash
 conda search cudatoolkit
