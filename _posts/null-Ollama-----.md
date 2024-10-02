@@ -7,7 +7,7 @@ tags:
   - Ollama
 status: Ready
 layout: post
-_thumbnail: /assets/img/461058563_1083955939728809_4408262249420885361_n_VQoJ0V7B.jpg
+_thumbnail: /assets/img/461058563_1083955939728809_4408262249420885361_n_sPkVEAXo.jpg
 
 ---
 
@@ -15,7 +15,7 @@ _thumbnail: /assets/img/461058563_1083955939728809_4408262249420885361_n_VQoJ0V7
 > How to Install 🚀\
 > <https://docs.openwebui.com/getting-started/>
 
-> [![image](/assets/img/461058563_1083955939728809_4408262249420885361_n_VQoJ0V7B.jpg) **Llama 3.2**](https://llama.meta.com/)\
+> [![image](/assets/img/461058563_1083955939728809_4408262249420885361_n_sPkVEAXo.jpg) **Llama 3.2**](https://llama.meta.com/)\
 > The open source AI model you can fine-tune, distill and deploy anywhere. Our latest models are available in 8B, 70B, and 405B variants.\
 > <https://llama.meta.com/>
 
@@ -28,7 +28,7 @@ _thumbnail: /assets/img/461058563_1083955939728809_4408262249420885361_n_VQoJ0V7
 > <https://python.langchain.com/v0.1/docs/modules/data_connection/document_loaders/>
 
 > [![image](/assets/img/og_2iSKdyhH) **Notebooks - Unstructured**](https://docs.unstructured.io/examplecode/notebooks)\
-> Notebooks contain complete working sample code for end to end solutions.\
+> Notebooks contain complete working sample code for end-to-end solutions.\
 > <https://docs.unstructured.io/examplecode/notebooks>
 
 # 项目的结构
