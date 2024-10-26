@@ -68,5 +68,5 @@ graph LR
 
     目前使用官网教程，FAISS
 
-    > [**Installing cuDNN on Linux — NVIDIA cuDNN v9.5.0 documentation**](https://docs.nvidia.com/deeplearning/cudnn/latest/installation/linux.html)\
+    > [**Installing cuDNN on Linux — NVIDIA cuDNN**](https://docs.nvidia.com/deeplearning/cudnn/latest/installation/linux.html)\
     > <https://docs.nvidia.com/deeplearning/cudnn/latest/installation/linux.html>
