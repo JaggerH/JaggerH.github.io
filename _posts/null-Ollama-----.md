@@ -7,15 +7,15 @@ tags:
   - Ollama
 status: Ready
 layout: post
-_thumbnail: /assets/img/461058563_1083955939728809_4408262249420885361_n_VQoJ0V7B.jpg
+_thumbnail: /assets/img/461058563_1083955939728809_4408262249420885361_n_02b268AM.jpg
 
 ---
 
 > [**🚀 Getting Started | Open WebUI**](https://docs.openwebui.com/getting-started/)\
-> How to Install 🚀\
+> Welcome to the Open WebUI Documentation Hub! Below is a list of essential guides and resources to help you get started, manage, and develop with Open WebUI.\
 > <https://docs.openwebui.com/getting-started/>
 
-> [![image](/assets/img/461058563_1083955939728809_4408262249420885361_n_VQoJ0V7B.jpg) **Llama 3.2**](https://llama.meta.com/)\
+> [![image](/assets/img/461058563_1083955939728809_4408262249420885361_n_02b268AM.jpg) **Llama 3.2**](https://llama.meta.com/)\
 > The open source AI model you can fine-tune, distill and deploy anywhere. Our latest models are available in 8B, 70B, and 405B variants.\
 > <https://llama.meta.com/>
 
