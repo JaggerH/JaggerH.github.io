@@ -13,7 +13,9 @@ _thumbnail: /assets/img/favicon_f8fO6Cee.svg
 
 ---
 
-Codespace is good, but not good enough when you have lots of blog.
+使用 Notion 管理博客内容，通过 notion-jam 自动同步到 GitHub Pages。本文详细介绍配置步骤和常见问题的解决方案。
+
+<!--more-->
 
 # Why Notion
 

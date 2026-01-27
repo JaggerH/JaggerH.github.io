@@ -14,11 +14,9 @@ _thumbnail: /assets/img/nasa_transonic_tunnel_Gzc9uijW.jpg
 
 ---
 
-如果你考虑过把自己的经验写成Blog，记录自己的经历，画上五分钟，你可以拥有一个自己的博客。
+如果你考虑过把自己的经验写成Blog，记录自己的经历，画上五分钟，你可以拥有一个自己的博客。本文介绍如何使用 GitHub Pages + Jekyll 快速搭建个人博客。
 
-我看到很多Blog，后缀都是github.io。
-
-查了一下发现，Github可以免费托管个人博客了，那不赶紧搞起来。
+<!--more-->
 
 ## 创建一个空的项目，命名必须是你的Github名称 + github.io
 

@@ -8,6 +8,7 @@ description: >-
 url: "https://jaggerh.github.io"
 baseurl: ""
 repository: JaggerH/JaggerH.github.io
+excerpt_separator: "<!--more-->"
 
 # Theme
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
