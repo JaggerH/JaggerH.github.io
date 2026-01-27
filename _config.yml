@@ -1,6 +1,6 @@
 # Site settings
 title: Jagger
-subtitle: "Openness, Focus, First principles"
+subtitle: "Bide your time"
 name: Jagger.H
 email: jaggerwinner@gmail.com
 description: >-
@@ -26,7 +26,7 @@ plugins:
 author:
   name: "Jagger.H"
   avatar: "/assets/img/avatar.png"
-  bio: "Openness, Focus, First principles"
+  bio: "今日长缨在手"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"

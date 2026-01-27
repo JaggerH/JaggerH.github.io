@@ -1,0 +1,26 @@
+<style>
+/* 增加文章内容区宽度 - 减少右侧空白 */
+@media (min-width: 64em) {
+  .page {
+    float: right;
+    width: calc(100% - 300px) !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media (min-width: 80em) {
+  .page {
+    width: calc(100% - 300px) !important;
+  }
+}
+
+/* 代码块横向滚动 */
+.page__content pre {
+  overflow-x: auto;
+}
+
+/* 调整内容区字体大小 */
+.page__content {
+  font-size: 0.75em;
+}
+</style>
