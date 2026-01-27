@@ -1,0 +1,14 @@
+services:
+  jekyll:
+    image: jekyll/jekyll:latest
+    container_name: blog-preview
+    command: bash -c "bundle install && jekyll serve --watch --force_polling --livereload"
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    volumes:
+      - .:/srv/jekyll
+      - jekyll_bundles:/usr/local/bundle
+
+volumes:
+  jekyll_bundles:

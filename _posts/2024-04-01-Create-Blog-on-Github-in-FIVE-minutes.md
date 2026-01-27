@@ -9,7 +9,7 @@ tags:
   - Jekyll
 date: '2024-04-01'
 status: Ready
-layout: post
+layout: single
 _thumbnail: /assets/img/nasa_transonic_tunnel_Gzc9uijW.jpg
 
 ---

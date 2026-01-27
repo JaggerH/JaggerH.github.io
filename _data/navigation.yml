@@ -1,0 +1,24 @@
+# 顶部导航
+main:
+  - title: "Posts"
+    url: /
+  - title: "Tags"
+    url: /tags/
+  - title: "About"
+    url: /about/
+
+# 侧边栏导航 - 可以定义多个集合
+docs_sidebar:
+  - title: "Quant"
+    children:
+      - title: "行为因子量化"
+        url: /stock/quant/behavior-factor-quantification-method/
+
+  - title: "Tech"
+    children:
+      - title: "Github博客搭建"
+        url: /github/jekyll/create-blog-on-github-in-five-minutes/
+      - title: "Notion同步"
+        url: /github/notion/sync-blog-with-notion/
+      - title: "RSSHub教程"
+        url: /rss/rsshub----/

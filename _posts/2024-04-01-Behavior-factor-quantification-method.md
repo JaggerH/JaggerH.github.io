@@ -8,7 +8,7 @@ tags:
   - Quant
 date: '2024-04-01'
 status: Ready
-layout: post
+layout: single
 
 ---
 

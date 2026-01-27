@@ -8,7 +8,7 @@ tags:
   - Notion
 date: '2024-04-02'
 status: Ready
-layout: post
+layout: single
 _thumbnail: /assets/img/favicon_f8fO6Cee.svg
 
 ---
