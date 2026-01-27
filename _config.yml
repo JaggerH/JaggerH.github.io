@@ -25,6 +25,7 @@ plugins:
 # Site author
 author:
   name: "Jagger.H"
+  avatar: "/assets/img/avatar.png"
   bio: "Openness, Focus, First principles"
   links:
     - label: "GitHub"
