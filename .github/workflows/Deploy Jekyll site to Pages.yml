@@ -1,14 +1,9 @@
-# This is a basic workflow to help you get started with Actions
-# step 1. read from notion database
-# step 2. commit changes
-# step 3. build pages
-# step 4. deploy
+# Simple Jekyll build and deploy workflow
+# Push markdown files to _posts/ and they will be automatically published
+
 name: Deploy Jekyll site to Pages
 
-# Controls when the workflow will run
 on:
-  schedule:
-    - cron: "0 21 * * *" # daily
   push:
     branches: [master, main]
 
@@ -17,72 +12,40 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: write
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# Allow only one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
-      - name: notion-jam
-        uses: victornpb/notion-jam@v0.0.13
-        with:
-          NOTION_SECRET: ${{ secrets.NOTION_SECRET }}
-          NOTION_DATABASE: ${{ vars.NOTION_DATABASE }}
-          FILTER_PROP: Status
-          FILTER_VALUES: Ready,Published
-          CONVERT_PROP_CASE: snake
-          ARTICLE_PATH:  _posts/{date}-{title}.md
-          ASSETS_PATH: assets/img
-          PARALLEL_PAGES: 25
-          PARALLEL_DOWNLOADS_PER_PAGE: 3
-          DOWNLOAD_IMAGE_TIMEOUT: 30
-          SKIP_DOWNLOADED_IMAGES: true
-          DOWNLOAD_FRONTMATTER_IMAGES: true
-          
-      - name: Replace image paths in Markdown files
-        run: |
-          sed -i 's|assets/img/|/assets/img/|g' $(find _posts -type f -name "*.md")
-      
-      - name: Save changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Commit changes
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
         with:
-          ruby-version: '3.1' # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
+          ruby-version: '3.1'
+          bundler-cache: true
+          cache-version: 0
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+
       - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+
       - name: Upload artifact
-        # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
 
-  # Deployment job
   deploy:
     environment:
       name: github-pages
