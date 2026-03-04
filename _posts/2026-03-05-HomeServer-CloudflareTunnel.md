@@ -77,9 +77,16 @@ Cloudflare 提供免费域名（`*.dpdns.org`），同时提供 DNS API。用 `f
 
 ### 步骤概览
 
-**Step 1：申请 Cloudflare 免费域名**
+**Step 1：申请免费域名**
 
-注册 Cloudflare 账号，在 DNS 页面可以领一个 `*.dpdns.org` 的免费子域名。
+`dpdns.org` 是 [DigitalPlat](https://dash.domain.digitalplat.org) 提供的永久免费域名，注册后接入 Cloudflare 即可使用：
+
+1. 注册 [dash.domain.digitalplat.org](https://dash.domain.digitalplat.org)（不能用临时邮箱）
+2. 完成 KYC 认证（自动审核通过）
+3. 在 Domain Registration 申请子域名
+4. 将 Cloudflare 的 NS 服务器填入，等待邮件确认接入
+
+注意：每个账号限 1 个免费域名，需每年提前 180 天手动续期，不建议用于生产环境。
 
 **Step 2：创建 Cloudflare Tunnel**
 
@@ -150,7 +157,7 @@ services:
 
 | 问题 | 传统方案 | Cloudflare 方案 |
 |------|---------|----------------|
-| 动态 IP | DDNS 服务（NoIP 等，需定期续期）| CF DDNS，API 驱动，永久免费 |
+| 动态 IP | NoIP 免费域名每 30 天需手动确认，否则失效 | dpdns.org 每 180 天续期一次，CF DDNS 自动更新 IP |
 | 端口封锁 | 换端口 + CDN 隐性解析 | Tunnel 根本不用端口 |
 | HTTPS 证书 | Certbot + Let's Encrypt + Nginx | CF 自动签发，无需 Nginx |
 | 路由器配置 | 端口转发 | 不需要 |
